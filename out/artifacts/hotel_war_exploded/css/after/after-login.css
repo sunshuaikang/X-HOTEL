@@ -1,0 +1,20 @@
+.page-header{
+    text-align: center;
+}
+table{
+    width: 300px;
+    margin: 0 auto;
+    height: 300px;
+}
+table button{
+    width: 300px;
+}
+table td{
+    padding: 2px 0;
+}
+#login-form{
+    width: 400px;
+    margin: 100px auto;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}

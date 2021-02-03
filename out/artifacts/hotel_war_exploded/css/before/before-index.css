@@ -1,0 +1,44 @@
+article{
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    background: #2aabd2;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;/*子元素溢出父元素的时候换行*/
+    overflow: hidden;
+}
+.common-item{
+    width: 800px;
+    height: 300px;
+    padding: 10px;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 280px;
+    height: 280px;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+}
+.right{
+    width: 480px;
+    height: 280px;
+    padding: 15px 5px;
+    /*word-wrap: break-word;*/
+}
+table{
+    table-layout: fixed;
+}
+table th{
+    width: 130px;
+}
+table td{
+    word-break: break-word;
+}

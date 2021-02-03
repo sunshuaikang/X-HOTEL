@@ -1,0 +1,23 @@
+.button-wrap{
+    width: 1300px;
+    height: 50px;
+    margin: 0 auto;
+}
+.room-type-wrap{
+    width: 1300px;
+    margin: 0 auto;
+}
+.room-type-wrap table{
+    table-layout: fixed;
+}
+.room-type-wrap td{
+    word-break: break-word;
+}
+.room-type-wrap table th,td{
+    text-align: center;
+
+}
+.room-type-wrap img{
+    width: 50px;
+    height: 50px;
+}
